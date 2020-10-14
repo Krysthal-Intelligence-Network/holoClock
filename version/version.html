@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- pandoc layout template -->
+<head>
+<title>holoGIT: version and releases</title>
+<link rel="icon" href="img/favicon-64x64.ico" type="image/x-icon" />
+<meta charset=utf8>
+<meta name="google-site-verification" content="vl2per0jvOYZZdSO5tf_uFNsIaOoGz_F9A_1fZQtBRg" />
+<style>
+body { 
+  background-image: URL(img/bg-syvyc.jpg);
+  background-position: fixed;
+  background-size: cover;
+}
+.content {
+  max-width: 90%;
+  padding: 1rem;
+  margin: auto;
+  background-color: white;
+  opacity: 0.96;
+  border: 1px blue;
+}
+</style>
+</head>
+<body>
+
+<div class=content>
+<div class=md><code>
+<h2 id="the-current-version-is-0.1.66---fifi-20w42">The current version is 0.1.66 - fifi (20W42)</h2>
+<p>We use a time base versioning system to allow sementic and chronologic releases</p>
+<p>To learn about the comming release, you can run the following commands:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="va">ver=$(</span><span class="fu">perl</span> -S version -a /dev/null <span class="kw">|</span> <span class="ex">xyml</span> scheduled<span class="va">)</span> <span class="kw">&amp;&amp;</span> <span class="bu">echo</span> ver: <span class="va">$ver</span></span></code></pre></div>
+<hr />
+<div class="sourceCode" id="cb2"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="pp">---</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a><span class="fu">name</span><span class="kw">:</span><span class="at"> Semantic-Version</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;holoGIT: version and releases&quot;</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true"></a><span class="fu">version</span><span class="kw">:</span><span class="at"> </span><span class="st">&#39;0.1.66 - fifi&#39;</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true"></a><span class="fu">firstname</span><span class="kw">:</span><span class="at"> Fred</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true"></a><span class="fu">date</span><span class="kw">:</span><span class="at"> Wed, 2020-10-14</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true"></a><span class="fu">ldate</span><span class="kw">:</span><span class="at"> 10/14/2020</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true"></a><span class="fu">gitid</span><span class="kw">:</span><span class="at"> 6be4772</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true"></a><span class="fu">repo_url</span><span class="kw">:</span><span class="at"> https://holoarchi.gitlab.io/holoclock</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true"></a><span class="fu">yw</span><span class="kw">:</span><span class="at"> 20W42</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true"></a><span class="fu">qsc</span><span class="kw">:</span><span class="at"> QmWdLeCo1hJXAUCvk4UJK8PrQuGKDJRgsNA47KehAWoVk8</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true"></a><span class="fu">gw</span><span class="kw">:</span><span class="at"> http://localhost:8080</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true"></a><span class="fu">prev</span><span class="kw">:</span><span class="at"> QmXhYi9hBgHVxBwpnL2XzGCPeRRb2UKQKDRg8jRmcb1CEu</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true"></a><span class="fu">qm</span><span class="kw">:</span><span class="at"> QmRjbbfxBwwiV1tCzD5PeeymrJ3xmmm6jBtLhYGmu3Bz8x</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true"></a><span class="fu">tic</span><span class="kw">:</span><span class="at"> </span><span class="dv">1602683577</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true"></a><span class="fu">ip</span><span class="kw">:</span><span class="at"> </span><span class="fl">127.0.0.1</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true"></a><span class="fu">build</span><span class="kw">:</span><span class="at"> fifi</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true"></a><span class="fu">wwk</span><span class="kw">:</span><span class="at"> </span><span class="dv">42</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true"></a><span class="fu">yq</span><span class="kw">:</span><span class="at"> Y2020Q4</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true"></a><span class="fu">lni</span><span class="kw">:</span><span class="at"> G</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true"></a><span class="fu">release</span><span class="kw">:</span><span class="at"> v0.1.6.6</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true"></a><span class="co">...</span></span></code></pre></div>
+<p>note: this file is updated from <a href="https://glcdn.githack.com/holoarchi/holoclock/-/raw/6be4772/version/version.html">6be4772</a></p>
+<p>via smart contract :</p>
+<pre><code>QmWdLeCo1hJXAUCvk4UJK8PrQuGKDJRgsNA47KehAWoVk8</code></pre>
+<p>by Fred G. on 10/14/2020</p>
+</code>
+</div>
+<hr>
+<div id="footer">
+This <a href=https://holoarchi.gitlab.io/holoclock/version/version.html>page</a> was generated on [194.230.146.198] with the smartcontract <a href="http://localhost:8080/ipfs/QmWdLeCo1hJXAUCvk4UJK8PrQuGKDJRgsNA47KehAWoVk8">qsc:QmWdLeCo1hJXAUCvk4UJK8PrQuGKDJRgsNA47KehAWoVk8</a>
+<br>
+cite as [build:fifi]: &lt;<a href="http://localhost:8080/ipfs/QmdBBDRGuATGGMYY5FUGRytMfC7cie9yPE8ujXJu9N13FG">/ipfs/QmdBBDRGuATGGMYY5FUGRytMfC7cie9yPE8ujXJu9N13FG</a>&gt;
+</div>
+</div>
+<script type="text/javascript"></script>
+</body>
