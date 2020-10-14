@@ -2,21 +2,21 @@
 name: Semantic-Version
 title: "holoGIT: version and releases"
 version: '0.1.66 - fifi'
-firstname: Sonja
+firstname: Millard
 date: Wed, 2020-10-14
 ldate: 10/14/2020
-gitid: 1180741
+gitid: 75c71d3
 repo_url: https://holoarchi.gitlab.io/holoclock
 yw: 20W42
-qsc: Qma5C2AFdLdthy3yhhmiSGhYKhgCcxhRaADPLzRcannV9i
+qsc: QmNf4DcD6EygTCtodooU3dFwFsueDpt3xJqWPXVYFAeQv3
 gw: http://localhost:8080
-prev: QmRrMsQ38uitAj2HWWFqN8BbJ7PRZgG6tom1E6pWZFgGPx
-qm: QmcXsPdjke46RrxzwyBm84B1Pj13fiU7xGnHdBZutaLHfg
-tic: 1602695452
+prev: QmbGYMUAWRfDeBXRGMfHr2zHqvR1dCKEspjWeZ68cfhhkP
+qm: QmQojRyRUasNQ3FytqcXdmDYZpbmx7VevYX4cbRcW4wH69
+tic: 1602698835
 ip: 194.230.146.198
 build: fifi
 wwk: 42
 yq: Y2020Q4
-lni: F
+lni: D
 release: v0.1.6.6
 ...
